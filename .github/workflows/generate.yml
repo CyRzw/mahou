@@ -2,7 +2,7 @@ name: Generate Image
 
 on:
   schedule:
-    - cron: 0 0 3 * * 
+    - cron: 08 15 * * * 
   workflow_dispatch:
 
 env:
@@ -95,3 +95,4 @@ jobs:
           name: output
           path: ./output/output.png
           retention-days: 1
+
