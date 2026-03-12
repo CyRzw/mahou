@@ -2,7 +2,7 @@ name: Generate Image
 
 on:
   schedule:
-    - cron: 13 07 * * * 
+    - cron: 27 07 * * * 
   workflow_dispatch:
 
 env:
